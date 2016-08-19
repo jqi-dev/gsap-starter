@@ -2,11 +2,9 @@
 
 // Set up variables
 
-var ITEM1 = "#Item1";
-var ITEM2 = "#Item2";
-var ITEM3 = "#item3";
+var ITEM1 = "#Item1"; // Use the image IDs
 
-var myEase = Power1.easeInOut; // useful to declare easing types as a variable
+var myEase = Power1.easeInOut; // useful to declare easing types as variables
 
 // Create a looping timeline
 
