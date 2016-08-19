@@ -1,4 +1,4 @@
-# Starter files and utilities for GSAP
+# GSAP starter files
 
 A basic setup for beginning GSAP animation projects.
 
