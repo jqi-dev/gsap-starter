@@ -1,0 +1,11 @@
+.gsap-container {
+  width: 100%;
+  max-width: 1200px; /*Not necessary, useful for testing*/
+  position: relative;
+  margin: 0 auto;
+}
+
+.gsap-image {
+  position:absolute;
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>PLACE TITLE HERE</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <!---------------------->
+    <!-- Animated content -->
+    <!---------------------->
+
+     <!-- Animation container-->
+     <div class="gsap-container">
+       <!--Place animated elements here, with the "gsap-image" class. Give each element a unique id. -->
+       <image src='images/YOURNAME.svg' class="gsap-image" id="Item1"></image>
+       <image src='images/YOURNAME2.svg' class="gsap-image" id="Item2"></image>
+       <image src='images/YOURNAME3.svg' class="gsap-image" id="Item3"></image>
+       <!-- etc... -->
+    </div>
+
+
+    <!------------->
+    <!-- SCRIPTS -->
+    <!------------->
+
+    <!-- script.js should be the animation script -->
+    <script src="js/script.js"></script>
+
+    <!-- CDN links for TweenMAX and jquery (necessary for GSAP) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Used for resizing -->
+    <script src="js/iframeResizer.contentWindow.js"></script>
+
+  </body>
+</html>
