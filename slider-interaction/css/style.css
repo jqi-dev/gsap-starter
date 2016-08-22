@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  position:relative;
+  width: 100%;
+}
+
+input {
+  z-index: 10;
+}
