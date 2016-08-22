@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+.image {
+  position:absolute;
+  width: 100%;
+}
+
+.button {
+  position: relative;
+  width: 50px;
+  padding: 0px 10px;
+  background-color: #b4e3f4;
+}
+
+.button:hover {
+  background-color: #57b0d0;
+  cursor: pointer;
+}
